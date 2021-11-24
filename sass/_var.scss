@@ -1,0 +1,16 @@
+$mobile: 375;
+$orange: hsl(26, 100%, 55%);
+$paleorange: hsl(25, 100%, 94%);
+$verydarkblue: hsl(220, 13%, 13%);
+$darkgrayish: hsl(219, 9%, 45%);
+$grayishblue: hsl(220, 14%, 75%);
+$lightgrayishblue: hsl(230, 18%, 93%);
+$lightergrayishblue: hsla(230, 60%, 98%, 0.411);
+$white: hsl(0, 0%, 100%);
+$black: hsl(0, 0%, 0%);
+
+@mixin mobile {
+    @media (max-width: $mobile) {
+        @content;
+    }
+}

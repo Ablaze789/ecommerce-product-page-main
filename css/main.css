@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+main {
+  margin: 0 5vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+main .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 70vw;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+main .photo-card, main .details {
+  width: 40%;
+}
+
+main .photo-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .product-pics {
+  background: url("../images/image-product-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+main .product-pics-1 {
+  background: url("../images/image-product-1-thumbnail.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+main .product-pics-1:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 248, 253, 0.411)), to(rgba(247, 248, 253, 0.411))), url("../images/image-product-1-thumbnail.jpg");
+  background: linear-gradient(rgba(247, 248, 253, 0.411), rgba(247, 248, 253, 0.411)), url("../images/image-product-1-thumbnail.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main .product-pics-2 {
+  background: url("../images/image-product-2-thumbnail.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+main .product-pics-2:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 248, 253, 0.411)), to(rgba(247, 248, 253, 0.411))), url("../images/image-product-2-thumbnail.jpg");
+  background: linear-gradient(rgba(247, 248, 253, 0.411), rgba(247, 248, 253, 0.411)), url("../images/image-product-2-thumbnail.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main .product-pics-3 {
+  background: url("../images/image-product-3-thumbnail.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+main .product-pics-3:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 248, 253, 0.411)), to(rgba(247, 248, 253, 0.411))), url("../images/image-product-3-thumbnail.jpg");
+  background: linear-gradient(rgba(247, 248, 253, 0.411), rgba(247, 248, 253, 0.411)), url("../images/image-product-3-thumbnail.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main .product-pics-4 {
+  background: url("../images/image-product-4-thumbnail.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+main .product-pics-4:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 248, 253, 0.411)), to(rgba(247, 248, 253, 0.411))), url("../images/image-product-4-thumbnail.jpg");
+  background: linear-gradient(rgba(247, 248, 253, 0.411), rgba(247, 248, 253, 0.411)), url("../images/image-product-4-thumbnail.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main .active {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(247, 248, 253, 0.411)), to(rgba(247, 248, 253, 0.411))), url("../images/image-product-1-thumbnail.jpg");
+  background: linear-gradient(rgba(247, 248, 253, 0.411), rgba(247, 248, 253, 0.411)), url("../images/image-product-1-thumbnail.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border: 1px solid #ff7d1a;
+}
+
+main .large {
+  width: 100%;
+  height: 25vw;
+  margin-bottom: 2vw;
+}
+
+main .small {
+  width: 20%;
+  height: 5vw;
+}
+
+.head-1 {
+  color: #ff7d1a;
+  font-size: 0.9rem;
+}
+
+.head-2 {
+  color: black;
+  font-size: 2rem;
+}
+
+.para-1 {
+  line-height: 1.6;
+  font-size: 0.8rem;
+  color: #68707d;
+}
+
+.price {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.currency {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.discount {
+  margin-left: 10px;
+  padding: 3px;
+  border-radius: 4px;
+  font-size: 0.6rem;
+  color: #ff7d1a;
+  background: #ffede0;
+}
+
+.old-price {
+  line-height: 1.6;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #b6bcc8;
+  translate: 0 -15px;
+}
+
+.bttn-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.qty {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 35%;
+  padding: 10px;
+  margin-right: 5%;
+  background: #eaebf0;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.qty svg {
+  margin: auto 0;
+}
+
+.addtocart {
+  display: inline-block;
+  width: 60%;
+  padding: 10px;
+  background: #ff7d1a;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+  cursor: default;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0 5vw;
+  padding-top: 10px;
+}
+
+nav .nav-menu {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #eaebf0;
+}
+
+nav #nav-icons {
+  padding-left: 23%;
+}
+
+nav img {
+  translate: 0 5px;
+}
+
+nav #company {
+  padding-right: 40px;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 5px;
+  padding-right: 40px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #68707d;
+}
+
+nav li .nav-item {
+  padding-bottom: 15px;
+  -webkit-transition: border-bottom 0.3s linear;
+  transition: border-bottom 0.3s linear;
+}
+
+nav li .nav-item:hover {
+  border-bottom: 2px solid #ff7d1a;
+}
+
+nav li .photo:hover {
+  border: 1px solid #ff7d1a;
+  border-radius: 50%;
+}
+
+#drop-down {
+  position: absolute;
+  top: 5rem;
+  right: 8vw;
+  width: 17rem;
+  height: auto;
+  display: none;
+  border-radius: 10px;
+  background: white;
+  -webkit-box-shadow: 5px 5px 10px -5px #b6bcc8, -5px 25px 25px -10px #b6bcc8;
+          box-shadow: 5px 5px 10px -5px #b6bcc8, -5px 25px 25px -10px #b6bcc8;
+}
+
+#drop-down p {
+  width: 100%;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 10px 10px 20px 10px;
+  border-bottom: 1px solid #eaebf0;
+}
+
+#drop-down .items {
+  height: 4.5rem;
+  color: #68707d;
+}
+
+#drop-down .items .empty {
+  display: none;
+  text-align: center;
+  font-weight: 700;
+  margin: auto;
+}
+
+#drop-down .items .items-des {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5%;
+}
+
+#drop-down .items .thumbnail {
+  width: 20%;
+  height: 3.6vw;
+  background: url("../images/image-product-1-thumbnail.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+#drop-down .items .des {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 10px;
+}
+
+#drop-down .items svg {
+  margin-top: 25px;
+}
+
+#drop-down .items .para-3 {
+  font-size: 0.7rem;
+  line-height: 1.6;
+  font-weight: lighter;
+}
+
+#drop-down .items #total {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: black;
+}
+
+#drop-down .checkout {
+  width: 90%;
+  padding: 10px;
+  margin: 0px 5% 20px 5%;
+  background: #ff7d1a;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
